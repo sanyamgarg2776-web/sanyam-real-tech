@@ -17,6 +17,11 @@ const manrope = Manrope({
 export const metadata = {
   title: "Sanyam Real Tech | Premium Wealth Management",
   description: "Luxury real estate and wealth management. We build legacies.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
